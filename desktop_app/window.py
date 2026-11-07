@@ -27,7 +27,7 @@ class App:
         repository = ttk.Frame(outer)
         repository.pack(anchor='w', pady=(6, 0))
         ttk.Label(repository, text='GitHub repo - ').pack(side='left')
-        self.header_repo_link = ttk.Label(repository, text='https://github.com/Chaitanya-970/oracle-bot', foreground='#0563c1',
+        self.header_repo_link = ttk.Label(repository, text='https://github.com/chaitanya-bhardwaj/oracle-bot', foreground='#0563c1',
                                           cursor='hand2', font=('Segoe UI', 10, 'underline'),
                                           takefocus=True)
         self.header_repo_link.pack(side='left')
@@ -73,7 +73,7 @@ class App:
 
     def append(self, text):
         self.log.configure(state='normal')
-        url = 'https://github.com/Chaitanya-970/oracle-bot'
+        url = 'https://github.com/chaitanya-bhardwaj/oracle-bot'
         parts = text.split(url)
         for index, part in enumerate(parts):
             if index:
@@ -84,7 +84,7 @@ class App:
         self.log.configure(state='disabled')
 
     def open_repository(self):
-        url = 'https://github.com/Chaitanya-970/oracle-bot'
+        url = 'https://github.com/chaitanya-bhardwaj/oracle-bot'
         try:
             if sys.platform == 'win32':
                 os.startfile(url)
@@ -173,7 +173,7 @@ class App:
                 self.use_key.configure(state='normal' if state in ('key','running','paused') else 'disabled')
                 self.continue_button.configure(state='normal' if state in ('login','paused') else 'disabled')
                 if state == 'complete':
-                    self.status.set(event['text'].replace(' https://github.com/Chaitanya-970/oracle-bot', ''))
+                    self.status.set(event['text'].replace(' https://github.com/chaitanya-bhardwaj/oracle-bot', ''))
                     self.progress['value'] = 100
                     self.detail.set('Finished. Congratulations! Please check your final scores in Oracle.')
                 elif state in ('error','stopped'):

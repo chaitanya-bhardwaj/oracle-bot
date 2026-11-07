@@ -46,7 +46,7 @@ class PauseTests(unittest.TestCase):
         app = Mock()
         with unittest.mock.patch("desktop_app.window.sys.platform", "win32"), unittest.mock.patch("desktop_app.window.os.startfile", create=True) as launch:
             App.open_repository(app)
-            launch.assert_called_once_with("https://github.com/Chaitanya-970/oracle-bot")
+            launch.assert_called_once_with("https://github.com/chaitanya-bhardwaj/oracle-bot")
 
     def test_repository_failure_is_visible(self):
         from desktop_app.window import App

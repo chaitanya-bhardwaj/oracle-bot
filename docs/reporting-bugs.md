@@ -1,6 +1,6 @@
 # Report a bug
 
-If you find an error or something does not work, please [open a GitHub issue](https://github.com/Chaitanya-970/oracle-bot/issues/new/choose). I’ll investigate the problem and fix it.
+If you find an error or something does not work, please [open a GitHub issue](https://github.com/chaitanya-bhardwaj/oracle-bot/issues/new/choose). I’ll investigate the problem and fix it.
 
 You do not need programming experience to report a problem. A clear description of what happened is enough to get started.
 
@@ -8,7 +8,7 @@ You do not need programming experience to report a problem. A clear description 
 
 Read the app's message and check [troubleshooting](troubleshooting.md). API limits, expired Oracle logins, and a lost internet connection often have an immediate recovery step.
 
-Search [existing issues](https://github.com/Chaitanya-970/oracle-bot/issues) for the same problem. If it has already been reported, add your details to that issue so everything stays together.
+Search [existing issues](https://github.com/chaitanya-bhardwaj/oracle-bot/issues) for the same problem. If it has already been reported, add your details to that issue so everything stays together.
 
 ## Open the report
 

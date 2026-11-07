@@ -40,7 +40,7 @@ def run():
         app.poll()
         assert app.progress['value'] == 100
         assert app.header_repo_link.winfo_manager() == 'pack'
-        assert app.header_repo_link.cget('text') == 'https://github.com/Chaitanya-970/oracle-bot'
+        assert app.header_repo_link.cget('text') == 'https://github.com/chaitanya-bhardwaj/oracle-bot'
         assert app.header_repo_link.bind('<Button-1>')
         assert app.log.tk.call(app.log._w, 'tag', 'bind', 'repository', '<Button-1>')
         assert 'Finished' in app.detail.get()

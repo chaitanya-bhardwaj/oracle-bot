@@ -1,6 +1,6 @@
 # Oracle Bot
 
-**[Download the Windows desktop app](https://github.com/Chaitanya-970/oracle-bot/releases/download/v1.0.0/OracleBot-Windows.zip)** — extract the ZIP and open **OracleBot.exe**. [All releases](https://github.com/Chaitanya-970/oracle-bot/releases).
+**[Download the Windows desktop app](https://github.com/chaitanya-bhardwaj/oracle-bot/releases/download/v1.0.0/OracleBot-Windows.zip)** — extract the ZIP and open **OracleBot.exe**. [All releases](https://github.com/chaitanya-bhardwaj/oracle-bot/releases).
 
 A helper for Oracle Academy that opens your enrolled courses, saves lesson progress, and answers choice-based quizzes and exams using Groq.
 
@@ -26,7 +26,7 @@ Both need an internet connection, your Oracle Academy account with enrolled cour
 
 ## Option 1: Windows desktop app
 
-Download **[OracleBot-Windows.zip](https://github.com/Chaitanya-970/oracle-bot/releases/download/v1.0.0/OracleBot-Windows.zip)** from GitHub Releases. The source-code ZIP from GitHub’s Code menu is a different download.
+Download **[OracleBot-Windows.zip](https://github.com/chaitanya-bhardwaj/oracle-bot/releases/download/v1.0.0/OracleBot-Windows.zip)** from GitHub Releases. The source-code ZIP from GitHub’s Code menu is a different download.
 
 1. Right-click the ZIP and select **Extract All**.
 2. Open the extracted folder. **OracleBot.exe** is directly inside it.
@@ -39,7 +39,7 @@ The ZIP includes Python, Chromium, Playwright, and their application dependencie
 
 Progress, API limits, sign-in requests, errors, and completion appear in the app window. The progress bar describes the current assessment, not all four courses. If a Groq account reaches its daily limit, the app asks for a replacement. Paste a key with available quota and select **Use key**; after verification it resumes without another Continue click. An invalid key leaves it paused with an error.
 
-When the run finishes, the window says **Finished. Congratulations!** and offers a link to star [the repository](https://github.com/Chaitanya-970/oracle-bot).
+When the run finishes, the window says **Finished. Congratulations!** and offers a link to star [the repository](https://github.com/chaitanya-bhardwaj/oracle-bot).
 
 The Windows package has passed offline window, browser, engine, and worker checks. Its complete Oracle workflow has not yet been validated. The source version has been reported working on macOS; follow the Mac setup below. This Windows ZIP will not run directly on macOS or Linux. Linux remains untested, and no native Mac or Linux desktop package is provided.
 
@@ -47,7 +47,7 @@ The Windows package has passed offline window, browser, engine, and worker check
 
 ### Download and install
 
-1. Open [the repository](https://github.com/Chaitanya-970/oracle-bot), select **Code**, then **Download ZIP**, and extract it. If you already use Git, you can clone it instead.
+1. Open [the repository](https://github.com/chaitanya-bhardwaj/oracle-bot), select **Code**, then **Download ZIP**, and extract it. If you already use Git, you can clone it instead.
 2. Install a current [Python 3](https://www.python.org/downloads/) and [Google Chrome](https://www.google.com/chrome/). On Windows, enable Python's **Add to PATH** option during installation.
 3. Open a terminal in the extracted project folder. On Windows, open that folder in File Explorer, type `powershell` in its address bar, and press Enter.
 4. Run this once:
@@ -153,7 +153,7 @@ Select **Stop** in the app to stop a desktop run. In the source version, use Ctr
 
 ## Found an error?
 
-Please [open a GitHub issue](https://github.com/Chaitanya-970/oracle-bot/issues/new/choose). I’ll investigate and fix it. You do not need coding experience: explain what happened and include the error message if possible. The [bug-reporting guide](docs/reporting-bugs.md) explains what details to include.
+Please [open a GitHub issue](https://github.com/chaitanya-bhardwaj/oracle-bot/issues/new/choose). I’ll investigate and fix it. You do not need coding experience: explain what happened and include the error message if possible. The [bug-reporting guide](docs/reporting-bugs.md) explains what details to include.
 
 ## Development and testing
 
@@ -167,7 +167,7 @@ python -m unittest discover -s tests -v
 
 The tests use separate temporary logs. Passing offline checks does not prove compatibility with every Oracle class.
 
-If this helped, please star [Oracle Bot on GitHub](https://github.com/Chaitanya-970/oracle-bot).
+If this helped, please star [Oracle Bot on GitHub](https://github.com/chaitanya-bhardwaj/oracle-bot).
 
 ## License
 

@@ -195,7 +195,7 @@ def run():
                                 and not runner.section_controls(page) and not runner.is_assessment_question_page(page)):
                             runner.wait_until(page, lambda: bool(runner.course_controls(page) or runner.section_controls(page) or runner.wizard_steps(page)))
                         if runner.run_all_courses(page):
-                            emit('state', state='complete', text='Finished. Congratulations! All courses in this run were processed. If you liked Oracle Bot, please star the repository: https://github.com/Chaitanya-970/oracle-bot')
+                            emit('state', state='complete', text='Finished. Congratulations! All courses in this run were processed. If you liked Oracle Bot, please star the repository: https://github.com/chaitanya-bhardwaj/oracle-bot')
                             wait_for('stop', page)
                         else:
                             log_text = last_failure['text']
